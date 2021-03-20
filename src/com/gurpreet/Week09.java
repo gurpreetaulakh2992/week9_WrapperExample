@@ -14,7 +14,7 @@ public class Week09 {
         String find="Lambton";
         int indexOfFindString=str.indexOf(find);
         String str1;
-        str1 = str.substring(indexOfFindString,indexOfFindString+7);
+        str1 = str.substring(indexOfFindString,indexOfFindString+find.length());
         System.out.println(str1);
         //check the word college exist or not
         String wordToFind="College";
